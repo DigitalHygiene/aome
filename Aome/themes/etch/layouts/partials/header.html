@@ -1,0 +1,28 @@
+<header id="banner" style="position: relative;">
+    <h2><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h2>
+
+    {{ if or (ne .Type "post") (eq .Type "") }}
+        <nav>
+            <ul>
+                {{ range .Site.Menus.main.ByWeight -}}
+                <li>
+                    {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>{{ .Post }}
+                </li>
+                {{- end }}
+
+                <!-- Add your new menu item here -->
+                <li>
+
+                </li>
+            </ul>
+        </nav>
+    {{ end }}
+
+  
+
+    <!-- Red square with the same height as its parent -->
+    <div style="position: absolute; top: 0; right: 0; bottom: 0; width: 90px;height: 20px; background-color: rgba(0, 0, 0, 0.843);"></div>
+
+
+</header>
+<hr>

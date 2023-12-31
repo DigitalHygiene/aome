@@ -1,0 +1,650 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+
+
+
+    background: rgb(243, 243, 239);
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-family: -apple\ "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: rgb(16, 15, 15);
+    width: 100%;
+    margin: auto;
+    padding: 0 20px;
+    line-height: 1.6;
+    overflow-wrap: break-word;
+
+    /* You can change the color and width as needed */
+}
+
+
+html {
+    overflow-x: hidden;
+}
+
+hr {
+    overflow-x: hidden;
+    border: none;
+    height: .5px;
+    /* Adjust the height as needed */
+    margin: 0px -2000px 0px;
+    /* Reset margin */
+    padding: 0;
+    /* Reset padding */
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width */
+    /* Set the hr color */
+    color: rgb(40, 39, 38);
+    /* old IE */
+    background-color: rgba(40, 39, 38, 0.8);
+    /* Modern Browsers */
+}
+
+
+header#banner {
+    margin: 10px 0;
+
+
+}
+
+header#banner a {
+
+    color: rgb(16, 15, 15);
+    text-decoration: none;
+
+}
+
+header#banner a:hover {
+    text-decoration: underline;
+}
+
+header#banner h2 {
+    letter-spacing: -.0 bv5em;
+    display: inline;
+    font-size: 21px;
+    font-size: 2.1rem;
+    margin: 0 8px 0 0;
+}
+
+header#banner nav {
+    display: inline-block;
+
+
+}
+
+header#banner nav ul {
+    list-style-type: none;
+    font-size: 1.05em;
+    text-transform: lowercase;
+    margin: 0;
+    padding: 0;
+
+}
+
+header#banner nav ul li {
+    display: inline;
+    margin: 0 3px;
+
+}
+
+header#banner nav ul li a {
+    color: #454545;
+
+}
+
+main#content a {
+    color: #007dfa;
+    text-decoration: none;
+
+
+
+}
+
+main#content a:hover {}
+
+
+
+main#content h1,
+main#content h2,
+main#content h3,
+main#content h4,
+main#content h5,
+main#content h6 {
+    margin-bottom: 0px;
+    line-height: 1.15;
+
+}
+
+main#content h3 {
+    font-size: 19px;
+    font-size: 1.9rem;
+
+}
+
+
+
+main#content h2+p,
+{}
+
+
+
+
+main#content h1+p,
+main#content h2+p,
+main#content h3+p,
+main#content h4+p,
+main#content h5+p,
+main#content h6+p {}
+
+main#content p {
+    color: #394548;
+    margin-top: 0px;
+
+}
+
+main#content hr {
+    height: 1px;
+    border: 0;
+    background: #d8d8d8;
+
+
+}
+
+main#content abbr {
+    cursor: help;
+}
+
+/* index.html styles */
+/* index.html styles */
+main#content ul#posts {
+    list-style-type: none;
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    padding: 0px;
+    outline: 2px solid rgba(245, 245, 245, 0);
+    /* You can change the color and width as needed */
+
+}
+
+
+
+
+main#content ul#posts li {
+    margin: 5px 0;
+    padding: 0;
+}
+
+main#content ul#posts small {
+    font-size: 0.8em;
+    color: #767676;
+    margin-left: 10px;
+
+}
+
+main#content ul#posts li a {
+    text-decoration: none;
+
+}
+
+main#content ul#posts li a:hover {
+    color: #369aff;
+
+}
+
+main#content ul#posts li a:hover small {
+    color: inherit;
+
+}
+
+/* single.html styles */
+main#content header#post-header h1 {
+    display: block;
+    font-size: 3.3rem;
+    font-weight: 800;
+    line-height: 1.15;
+
+    padding-right: 15%;
+    margin: auto;
+
+}
+
+main#content header#post-header>div {
+    display: block;
+    font-size: 0.85em;
+    color: #767676;
+    margin: auto;
+
+}
+
+main#content #toc {
+    border: 1px solid #b1b1b1;
+    border-radius: 1px;
+    line-height: 26px;
+    margin: 16px 0;
+    padding: 9px 14px;
+}
+
+main#content #toc h4 {
+    font-size: 1.06em;
+    color: #3d3d3d;
+    margin: 0;
+}
+
+main#content #toc nav#TableOfContents {
+    margin-top: 4px;
+}
+
+main#content #toc nav#TableOfContents>ul,
+main#content #toc nav#TableOfContents>ol {
+    margin-left: -40px;
+}
+
+main#content #toc ul,
+main#content #toc ol {
+    font-size: 0.98em;
+    margin: 0;
+    padding: 0 0 0 40px;
+}
+
+main#content #toc ul {
+    list-style-type: none;
+}
+
+main#content #toc ol {
+    counter-reset: item;
+}
+
+main#content #toc ol li {
+    display: block;
+}
+
+main#content #toc ol li:before {
+    content: counters(item, ".") ". ";
+    counter-increment: item;
+}
+
+main#content img {
+    max-width: 100%;
+    margin: 0 auto;
+
+    border: 3px solid rgb(64, 62, 60):
+}
+
+main#content figure {
+    margin: 16px 0;
+}
+
+main#content figure img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+main#content figure figcaption {
+    font-size: 0.92em;
+    font-style: italic;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 6px;
+    padding: 0 10px;
+}
+
+main#content figure figcaption h4 {
+    font-style: normal;
+    display: inline;
+    margin: 0;
+}
+
+main#content figure figcaption p {
+    display: inline;
+    margin: 0;
+    padding-left: 8px;
+}
+
+main#content blockquote {
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-left: 15px;
+    border-left: 3px solid #ccc;
+}
+
+main#content code,
+main#content pre {
+    font-family: 'Menlo', monospace;
+}
+
+main#content code {
+    font-size: 0.96em;
+    padding: 0 5px;
+}
+
+main#content pre {
+    display: block;
+    overflow-x: auto;
+    font-size: 14px;
+    font-size: 1.4rem;
+    white-space: pre;
+    margin: 20px 0;
+    padding: 1.5rem 1.5rem;
+    line-height: 1.4;
+
+}
+
+main#content pre code {
+    padding: 0;
+}
+
+main#content .footnotes {
+    font-size: 0.9em;
+}
+
+.hr2 {
+
+    border: 0;
+    /* Remove the default border */
+    height: 1px;
+    /* Set the height of the line */
+    background-color: rgb(87, 86, 83);
+    /* Set the color of the line */
+}
+
+footer#footer {
+
+    align-items: center;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 00;
+    color: #b3b3b3;
+
+
+}
+
+footer#footer1 {
+    display: inline;
+    align-items: center;
+    font-size: 14px;
+    a font-size: 1.4rem;
+    font-weight: 400;
+    color: #b3b3b3;
+    margin: 40px 0;
+
+
+}
+
+/* styles.css */
+.neoinsta {
+
+    color: rgb(32, 94, 166);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1em;
+    grid-column: 2;
+    /* Place element "a" in the first column */
+    grid-row: 2;
+    /* Place element "a" in the first row */
+
+
+}
+
+.twitter-link {
+    color: rgb(32, 94, 166);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1em;
+    grid-column: 2;
+    /* Place element "a" in the first column */
+    grid-row: 1;
+    /* Place element "a" in the first row */
+}
+
+
+.email-link {
+    /* Add styles for email link */
+    color: rgb(32, 94, 166);
+    /* Example text color */
+    text-decoration: underline;
+    /* Example underline */
+    grid-column: 1;
+    /* Place element "a" in the first column */
+    grid-row: 2;
+    /* Place element "a" in the first row */
+}
+
+.ddale {}
+
+.copy {
+    color: rgb(87, 86, 83);
+    grid-column: 1;
+    /* Place element "a" in the first column */
+    grid-row: 1;
+    /* Place element "a" in the first row */
+
+}
+
+.nape {
+
+    display: grid;
+    grid-template-columns: auto auto;
+    /* Two columns */
+    grid-template-rows: repeat(2, auto);
+    /* Two rows */
+
+    row-gap: 0px;
+
+
+
+
+
+}
+
+.email-link,
+.copy,
+.neoinsta,
+.twitter-link {
+    margin: 0;
+    padding: 0px;
+    border: 1px solid #fcfcfc00;
+    /* Optional: Add borders for better visualization */
+}
+
+
+.twitter-link svg {
+
+    margin-right: 3px;
+    margin-bottom: -2.5px;
+}
+
+.neoinsta svg {
+    margin-right: 3px;
+    margin-bottom: -2.5px;
+}
+
+/* styles.css */
+
+/* Style applied directly to the img tag */
+
+
+
+    {
+
+    font-weight: 100;
+}
+
+article img:hover+#maincontent a {
+
+    text-decoration: underline;
+    box-shadow: 0 4px 8px rgba(176, 22, 22, 0.2);
+    /* Add a slightly stronger box shadow on hover */
+}
+
+.image-hover-container {
+    position: static
+}
+
+.image-link {
+
+    display: block;
+    /* Make the link a block-level element to fill the container */
+}
+
+.image-link:hover h2 {
+    text-decoration: underline;
+}
+
+
+.d {
+
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    /* Adjust the margin as needed to reduce the spacing */
+}
+
+.date:hover {
+    text-decoration: none;
+
+}
+
+
+/* Add your existing styles here */
+
+.latest-post {
+    /* Styles for the latest post title */
+    color: #ff0000;
+    /* Change the color to your preferred value */
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+.latest-post p.date {
+    /* Styles for the latest post date */
+    color: #00ff00;
+    /* Change the color to your preferred value */
+    font-style: italic;
+
+
+}
+
+.latest-post img {
+    /* Styles for the latest post image */
+    border: 2px solid #0000ff;
+    /* Change the border color to your preferred value */
+    border-radius: 10px;
+    /* Adjust the border radius as needed */
+    height: 9px;
+    /* Maintain the aspect ratio */
+}
+
+
+.mainpost {
+    font-weight: 400;
+    margin-top: auto;
+}
+
+.post-content {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+
+
+}
+
+.hptitle {
+    color: rgb(0, 0, 0);
+    font-weight: inherit;
+
+
+}
+
+
+/* static/css/about.css */
+.about-carousel {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .about-carousel img {
+    width: 100%;
+    transition: transform 1s ease-in-out;
+  }
+  
+
+
+  .hover-image {
+    width: 100px; /* Set the width of the image */
+    height: 100px; /* Set the height of the image */
+    transition: opacity 1.5s ease-in-out; /* Transition for a smooth fade effect */
+  }
+  
+  .hover-image:hover {
+    opacity: 0; /* Hide the image on hover */
+  }
+  
+  .hover-image:last-child {
+    opacity: 1; /* Show the second image initially */
+  }
+  
+/* Dark mode styles */
+
+.image-fader {
+  
+    position: relative;
+    margin-bottom: 1000px;
+  }
+  .image-fader img {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: auto;
+    height: 500px;
+    min-width: 300px;
+    min-height: 300px;
+
+    animation-name: imagefade;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imagefade {
+    0%, 100% {
+        visibility: visible;
+    }
+    25%, 92% {
+        visibility: hidden;
+    }
+}
+
+.image-fader img:nth-of-type(1) {
+    animation-delay: 0s;
+    animation-duration: 8s; /* Set the duration equal to the total cycle time */
+}
+
+.image-fader img:nth-of-type(2) {
+    animation-delay: 2s;
+    animation-duration: 8s;
+}
+
+.image-fader img:nth-of-type(3) {
+    animation-delay: 4s;
+    animation-duration: 8s;
+}
+
+.image-fader img:nth-of-type(4) {
+    animation-delay: 6s;
+    animation-duration: 8s;
+}

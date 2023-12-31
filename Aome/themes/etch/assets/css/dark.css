@@ -1,0 +1,75 @@
+{{ if not (eq .Site.Params.dark "on") -}}
+@media (prefers-color-scheme: dark) {
+{{ end -}}
+
+html {
+    scrollbar-color: #6c6c6c #2e2e2e;
+}
+
+body {
+    color: #ebebeb;
+    background: rgb(16, 15, 15);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: static;
+ 
+}
+
+
+header#banner a {
+    color: rgb(206, 205, 195);
+    text-decoration: none;
+    border-style: none;
+    
+}
+
+
+header#banner nav ul li a {
+    color:rgb(206, 205, 195);
+
+    
+}
+
+main#content a {
+    color: #436cbe;
+
+}
+
+main#content p {
+    color: rgb(206, 205, 195);
+
+}
+
+main#content hr {
+    
+    background: #5c5c5c;
+}
+
+main#content #toc h4 {
+    color: #d4d4d4;
+}
+
+main#content ul#posts small {
+    color: #a7a7a7;
+}
+
+main#content ul#posts li a:hover {
+    color: #21c7ff;
+    text-decoration: underline;
+}
+
+main#content header#post-header div {
+    color: #a7a7a7;
+}
+
+
+.hptitle {
+    color: rgb(243, 243, 243);
+    font-weight: inherit;
+
+
+}
+{{- if not (eq .Site.Params.dark "on") -}}
+}
+{{- end -}}
+```
